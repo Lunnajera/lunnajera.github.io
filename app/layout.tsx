@@ -59,7 +59,6 @@ export default function RootLayout({ children }: { children: any }) {
             </Content>
             <Footer style={{ textAlign: 'center' }}>
               Copyright 2024. Dataset Mexico, All Rights Reserved.
-              </Link>
             </Footer>
           </Layout>
         </Layout>
