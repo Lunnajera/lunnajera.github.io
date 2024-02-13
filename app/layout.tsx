@@ -58,9 +58,7 @@ export default function RootLayout({ children }: { children: any }) {
               {children}
             </Content>
             <Footer style={{ textAlign: 'center' }}>
-              Made with {<HeartTwoTone twoToneColor="#993399" />} by{' '}
-              <Link href="https://github.com/biantris" target="_blank">
-                biantris
+              Copyright 2024. Dataset Mexico, All Rights Reserved.
               </Link>
             </Footer>
           </Layout>
