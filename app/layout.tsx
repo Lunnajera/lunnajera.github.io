@@ -56,11 +56,6 @@ export default function RootLayout({ children }: { children: any }) {
                   icon: <DeploymentUnitOutlined />,
                   label: <NavLink href="/units">Unidades</NavLink>,
                 },
-                {
-                  key: '5',
-                  icon: <UnorderedListOutlined />,
-                  label: <NavLink href="/companies">Empresas</NavLink>,
-                },
               ]}
             />
           </Sider>
