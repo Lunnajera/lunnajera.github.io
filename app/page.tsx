@@ -26,8 +26,17 @@ export default function Home() {
           >
             <Title level={4}>Ativos</Title>
             <CardAsset />
-            <iframe title="Planner_V1.0 - copia ing" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=e9b572e4-9920-4bdd-acc7-bac08370ae76&autoAuth=true&ctid=3cbcc3d3-094d-4006-9849-0d11d61f484d" frameborder="0" allowFullScreen=true></iframe>
-          </Card>
+                <div>
+        <iframe 
+            src="https://player.vimeo.com/video/VIMEOID" 
+            width="640" 
+            height="360" 
+            frameborder="0" 
+            webkitallowfullscreen 
+            mozallowfullscreen 
+            allowfullscreen
+        ></iframe>
+    </div>
         </Col>
       </Row>
     </>
