@@ -14,20 +14,6 @@ export default function Home() {
   return (
     <>
       <h3>Dashboard</h3>
-       <Row>
-        <Col style={{ padding: 5 }}>
-          <Card
-            style={{
-              display: 'flex',
-              width: 350,
-              alignItems: 'center',
-              justifyContent: 'center',
-            }}
-          >
-            <Title level={4}>Ativos</Title>
-            <CardAsset />
-        </Col>
-      </Row>
     </>
   );
 }
