@@ -14,6 +14,13 @@ export default function Home() {
   return (
     <>
       <h3>Dashboard</h3>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <h3>Aqui pondremos el dashboard putito</h3>
     </>
   );
 }
