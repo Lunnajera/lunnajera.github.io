@@ -41,6 +41,16 @@ export default function RootLayout({ children }: { children: any }) {
                   icon: <PieChartOutlined />,
                   label: <NavLink href="/">Dashboard</NavLink>,
                 },
+                {
+                  key: '2',
+                  icon: <PieChartOutlined />,
+                  label: <NavLink href="/">Contacto</NavLink>,
+                },
+                {
+                  key: '3',
+                  icon: <PieChartOutlined />,
+                  label: <NavLink href="/">Sobre Nosotros</NavLink>,
+                },
               ]}
             />
           </Sider>
