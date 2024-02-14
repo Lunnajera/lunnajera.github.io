@@ -26,17 +26,6 @@ export default function Home() {
           >
             <Title level={4}>Ativos</Title>
             <CardAsset />
-                <div>
-        <iframe 
-            src="https://player.vimeo.com/video/VIMEOID" 
-            width="640" 
-            height="360" 
-            frameborder="0" 
-            webkitallowfullscreen 
-            mozallowfullscreen 
-            allowfullscreen
-        ></iframe>
-    </div>
         </Col>
       </Row>
     </>
