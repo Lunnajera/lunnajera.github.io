@@ -67,6 +67,17 @@ export default function RootLayout({ children }: { children: any }) {
             >
               {children}
             </Content>
+        <div>
+        <iframe 
+            src="https://player.vimeo.com/video/VIMEOID" 
+            width="640" 
+            height="360" 
+            frameborder="0" 
+            webkitallowfullscreen 
+            mozallowfullscreen 
+            allowfullscreen
+        ></iframe>
+        </div>
             <Footer style={{ textAlign: 'center' }}>
               Copyright 2024. Dataset Mexico, All Rights Reserved.
             </Footer>
