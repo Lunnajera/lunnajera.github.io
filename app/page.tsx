@@ -14,9 +14,24 @@ export default function Home() {
   return (
     <>
       <h3>Dashboard</h3>
-      <br></br>
-      <br></br>
-      <iframe title="Planner_V1.0 - copia ing" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=e9b572e4-9920-4bdd-acc7-bac08370ae76&autoAuth=true&ctid=3cbcc3d3-094d-4006-9849-0d11d61f484d" frameborder="0" allowFullScreen=true></iframe>
+       <Row>
+        <Col style={{ padding: 5 }}>
+          <Card
+            style={{
+              display: 'flex',
+              width: 350,
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}
+          >
+            <Title level={4}>Ativos</Title>
+            <CardAsset />
+            <NavLink href="/assets">
+              <Link>ver detalhes</Link>
+            </NavLink>
+          </Card>
+        </Col>
+      </Row>
     </>
   );
 }
