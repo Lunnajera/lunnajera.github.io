@@ -25,7 +25,7 @@ export const HeaderComponent = () => {
       >
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <Avatar icon={<UserOutlined />} />
-          <span style={{ padding: 5 }}>Usuário test1</span>
+          <span style={{ padding: 5 }}>Alan Vera</span>
         </div>
       </Header>
     </>
