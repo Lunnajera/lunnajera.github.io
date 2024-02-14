@@ -72,7 +72,7 @@ export default function RootLayout({ children }: { children: any }) {
             src="https://player.vimeo.com/video/VIMEOID" 
             width="640" 
             height="360" 
-            frameborder="0" 
+            frameBorder="0" 
             webkitallowfullscreen 
             mozallowfullscreen 
             allowfullscreen
