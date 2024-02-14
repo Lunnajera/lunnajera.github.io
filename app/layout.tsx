@@ -68,15 +68,7 @@ export default function RootLayout({ children }: { children: any }) {
               {children}
             </Content>
         <div>
-        <iframe 
-            src="https://player.vimeo.com/video/VIMEOID" 
-            width="640" 
-            height="360" 
-            frameBorder="0" 
-            webkitallowfullscreen 
-            mozallowfullscreen 
-            allowfullscreen
-        ></iframe>
+<iframe title="Planner_V1.0 - copia ing" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=e9b572e4-9920-4bdd-acc7-bac08370ae76&autoAuth=true&ctid=3cbcc3d3-094d-4006-9849-0d11d61f484d" frameborder="0" allowFullScreen=true></iframe>
         </div>
             <Footer style={{ textAlign: 'center' }}>
               Copyright 2024. Dataset Mexico, All Rights Reserved.
