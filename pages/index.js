@@ -21,8 +21,8 @@ export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="NutriTrack - A landing page template 🚀"
-                description="Discover NutriTrack, the effortless way to plan your meals with the power of Notion. Streamline your nutrition journey and achieve your health goals with ease."
+                title="Dataset MX - Tus datos vistos mejor"
+                description="La manera fácil de ver los datos de tu negocio y planear tus decisiones. Streamline your nutrition journey and achieve your health goals with ease."
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}
