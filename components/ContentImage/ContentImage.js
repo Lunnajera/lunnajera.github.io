@@ -6,17 +6,17 @@ import { v4 as uuid } from "uuid";
 const ContentImageData = [
     {
         id: uuid(),
-        title: "Effortless Planning",
+        title: "Eficiencia Operativa",
         content:
-            "Say goodbye to meal planning stress! With NutriTrack, planning your meals becomes a breeze. Our user-friendly Notion template lets you create customized daily or weekly meal plans effortlessly. Enjoy a balanced and nutritious diet without the hassle.",
+            "Optimiza tus procesos internos y aumenta la eficiencia de tu empresa. Con nuestras soluciones de gestión de datos, podrás identificar y eliminar cuellos de botella, reducir costos y mejorar la productividad en toda la organización.",
         align: "right",
         image: "/features1.png"
     },
     {
         id: uuid(),
-        title: "Shopping List",
+        title: "Cumplimiento Normativo",
         content:
-            "We've got your grocery shopping covered! NutriTrack includes a handy shopping list feature. As you plan your meals, the template automatically generates a comprehensive shopping list. No more forgotten items or aimless wandering in the supermarket. Shopping for healthy ingredients has never been easier!",
+            "No te arriesgues a multas costosas o daños a la reputación de tu empresa debido al incumplimiento de normativas. Nuestras soluciones de gestión de datos te ayudarán a garantizar el cumplimiento de todas las regulaciones relevantes en materia de protección de datos y privacidad del cliente.",
         align: "left",
         image: "/features2.png"
     }
