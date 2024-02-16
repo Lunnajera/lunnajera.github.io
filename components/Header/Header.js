@@ -34,7 +34,7 @@ export const Header = () => {
                             href="https://github.com/christian-luntok/nutritrack"
                             className="btn btn--secondary ml-4"
                         >
-                            Get Template
+                            Sign Up
                             <Icon icon="material-symbols:arrow-forward-rounded" />
                         </a>
                     </ButtonGroup>
