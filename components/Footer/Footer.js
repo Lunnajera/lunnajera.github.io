@@ -6,14 +6,14 @@ import { Icon } from "@iconify/react";
 
 const DATA = [
     {
-        title: "Template",
+        title: "Proyecto",
         items: [
             {
-                label: "Features",
+                label: "Caracteristicas",
                 href: "#features"
             },
             {
-                label: "Testimonials",
+                label: "Testimonios",
                 href: "#testimonials"
             },
             {
@@ -23,10 +23,10 @@ const DATA = [
         ]
     },
     {
-        title: "Company",
+        title: "Empresa",
         items: [
             {
-                label: "About",
+                label: "Acerca de",
                 href: "https://github.com/christian-luntok/",
                 target: "_blank"
             },
@@ -78,7 +78,7 @@ export const Footer = () => {
                                         href="https://github.com/christian-luntok/nutritrack"
                                         className="btn btn--secondary"
                                     >
-                                        Get Template
+                                        Sign Up
                                         <Icon icon="material-symbols:arrow-forward-rounded" />
                                     </a>
                                 </ButtonGroup>
