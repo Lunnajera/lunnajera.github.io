@@ -14,7 +14,7 @@ export const HomeBanner = () => {
                 {/* Appear First */}
                 <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
                     <BadgeGroup alignment="center">
-                        <BadgeMessage>Discover NutriTrack!</BadgeMessage>
+                        <BadgeMessage>Descubre Dataset!</BadgeMessage>
                         <BadgeIcon icon="game-icons:meal" />
                     </BadgeGroup>
                 </MotionBTTContainer>
@@ -34,13 +34,13 @@ export const HomeBanner = () => {
                     </Content>
                     <div className="mt-6 mb-16 text-center">
                         <ButtonGroup alignment="center">
-                            <Button href="#features">Features</Button>
+                            <Button href="#features">Caracteristicas</Button>
                             <a
                                 role="button"
                                 href="https://github.com/christian-luntok/nutritrack"
                                 className="btn btn--secondary"
                             >
-                                Get Template
+                                Sign Up
                                 <Icon icon="material-symbols:arrow-forward-rounded" />
                             </a>
                         </ButtonGroup>
