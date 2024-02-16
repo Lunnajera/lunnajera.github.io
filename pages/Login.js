@@ -4,7 +4,7 @@ export default function Login() {
   return (
     <div className="flex flex-col items-center md:flex-row md:h-screen">
       <div className="flex items-center justify-center w-full md:w-1/2">
-        <Image src="/android-chrome-512x512.png" alt="Login Image" width={800} height={600} />
+        <Image src="/android-chrome-512x512.png" alt="Login Image" width={427} height={232} />
       </div>
       <div className="flex flex-col items-center justify-center w-full md:w-1/4">
         <div className="w-full max-w-md space-y-8">
