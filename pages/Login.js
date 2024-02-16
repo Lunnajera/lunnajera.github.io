@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import { Button, ButtonGroup } from "@components/Button";
 export default function Login() {
   return (
     <div className="flex flex-col items-center md:flex-row md:h-screen">
@@ -42,13 +42,18 @@ export default function Login() {
                 required
               />
             </div>
-            <div>
-              <button
-                type="submit"
-                className="w-full px-4 py-3 font-bold text-white bg-indigo-500 rounded-md hover:bg-indigo-600 focus:outline-none focus:shadow-outline-indigo focus:border-indigo-700"
-              >
-                Sign In
-              </button>
+                    <div className="mt-6 mb-16 text-center">
+                        <ButtonGroup alignment="center">
+                            <Button href="#features">Caracteristicas</Button>
+                            <a
+                                role="button"
+                                href='/Login'
+                                className="btn btn--secondary"
+                            >
+                                Sign Up
+                                <Icon icon="material-symbols:arrow-forward-rounded" />
+                            </a>
+                        </ButtonGroup>
             </div>
           </form>
         </div>
