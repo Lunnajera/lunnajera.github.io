@@ -9,15 +9,15 @@ export default function Login() {
       <div className="flex flex-col items-center justify-center w-full md:w-1/4">
         <div className="w-full max-w-md space-y-8">
           <div>
-            <h1 className="text-2xl font-bold">Welcome back!</h1>
+            <h1 className="text-2xl font-bold">¡Bienvenido de vuelta!</h1>
             <p className="mt-2 text-gray-600">
-              Please sign in to your account.
+              Por favor, inicia sesión.
             </p>
           </div>
           <form className="mt-8 space-y-6">
             <div>
               <label htmlFor="email" className="block font-bold text-gray-700">
-                Email address
+                Correo Electrónico:
               </label>
               <input
                 id="email"
@@ -32,7 +32,7 @@ export default function Login() {
                 htmlFor="password"
                 className="block font-bold text-gray-700"
               >
-                Password
+                Contraseña:
               </label>
               <input
                 id="password"
