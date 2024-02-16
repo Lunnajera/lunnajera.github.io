@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { ButtonGroup } from "@components/Button";
 import { Icon } from "@iconify/react";
-import { Header } from "@components/Header";
-import { Footer } from "@components/Footer";
+import { Header } from "@components/Header_Login";
+import { Footer } from "@components/Footer_Login";
 
 export default function Login() {
   return (
