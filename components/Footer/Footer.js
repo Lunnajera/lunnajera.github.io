@@ -75,7 +75,7 @@ export const Footer = () => {
                                 <ButtonGroup alignment="left">
                                     <a
                                         role="button"
-                                        href="https://github.com/christian-luntok/nutritrack"
+                                        href='/Login'
                                         className="btn btn--secondary"
                                     >
                                         Sign Up
