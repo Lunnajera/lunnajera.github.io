@@ -2,6 +2,7 @@ import Image from "next/image";
 import { ButtonGroup } from "@components/Button";
 import { Icon } from "@iconify/react";
 import { Header } from "@components/Header";
+import { Footer } from "@components/Footer";
 
 export default function Login() {
   return (
@@ -63,6 +64,7 @@ export default function Login() {
         </div>
       </div>
     </div>
+   <Footer />
   </div>
   );
 }
