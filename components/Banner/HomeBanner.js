@@ -36,7 +36,7 @@ export const HomeBanner = () => {
                             <Button href="#features">Caracteristicas</Button>
                             <a
                                 role="button"
-                                href="https://github.com/christian-luntok/nutritrack"
+                                href='/Login'
                                 className="btn btn--secondary"
                             >
                                 Sign Up
