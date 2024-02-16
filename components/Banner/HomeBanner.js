@@ -14,22 +14,21 @@ export const HomeBanner = () => {
                 {/* Appear First */}
                 <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
                     <BadgeGroup alignment="center">
-                        <BadgeMessage>Descubre Dataset!</BadgeMessage>
+                        <BadgeMessage>Gestiona tus datos con Dataset MX!</BadgeMessage>
                         <BadgeIcon icon="game-icons:meal" />
                     </BadgeGroup>
                 </MotionBTTContainer>
                 {/* Appear Second */}
                 <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
                     <PageTitle className="text-center mx-auto" type="heavy">
-                        La manera fácil de ver los datos de tu negocio y planear tus decisiones.
+                        La manera mas sencilla de consultar tus datos y planear tus decisiones.
                     </PageTitle>
                 </MotionBTTContainer>
                 {/* Appear Third */}
                 <MotionBTTContainer transition={{ delay: 0.6, duration: 0.5 }}>
                     <Content className="text-center" alignment="center">
                         <p>
-                            Streamline your nutrition journey and achieve your
-                            health goals with ease.{" "}
+                            Empieza a utilizar la gestión de datos para tu empresa y destaca en el mercado.{" "}
                         </p>
                     </Content>
                     <div className="mt-6 mb-16 text-center">
