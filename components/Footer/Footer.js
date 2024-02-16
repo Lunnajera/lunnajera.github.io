@@ -127,7 +127,7 @@ export const Footer = () => {
             <SectionContainer className="footer-credits relative z-10">
                 <div className="wrap wrap-px py-6">
                     <p className="my-0">
-                        © {year} Dataset México. All rights reserved{" - "}
+                        © {year} Dataset México. All rights reserved.
                         <span className="font-normal">
                         </span>
                     </p>
