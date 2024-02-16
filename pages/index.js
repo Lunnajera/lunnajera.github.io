@@ -22,7 +22,7 @@ export default function Home() {
         <Layout className="">
             <SEO
                 title="Dataset MX - Tus datos vistos mejor"
-                description="La manera fácil de ver los datos de tu negocio y planear tus decisiones. Streamline your nutrition journey and achieve your health goals with ease."
+                description="La manera más sencilla de consultar tus datos y planear tus decisiones. Empieza a utilizar la gestión de datos para tu empresa y destaca en el mercado."
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}
@@ -41,16 +41,11 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Simplify Your Nutrition Journey with NutriTrack
+                                En Dataset Mx haremos que tomes de decisiones informado
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Hey there! Welcome to NutriTrack, the
-                                    ultimate nutrition meal planner powered by
-                                    Notion. We&apos;ve got some awesome features
-                                    lined up to make your nutrition journey a
-                                    piece of cake (pun intended). Check them
-                                    out:
+                                    Nuestras herramientas de gestión de datos te proporcionan información detallada y relevante para respaldar tus decisiones empresariales. Ya no tendrás que depender únicamente de la intuición; en su lugar, contarás con datos concretos para respaldar cada paso que des.
                                 </p>
                             </Content>
                             <ContentImage />
@@ -69,16 +64,11 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Master Your Meal Planning and Nutrition Journey
+                                Identificación de Oportunidades de Crecimiento
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Our comprehensive Notion template designed
-                                    to empower you on your meal planning and
-                                    nutrition journey. With our user-friendly
-                                    features, customizable layouts, and seamless
-                                    recipe integration, taking control of your
-                                    meals has never been easier.
+                                    Aprovecha al máximo las oportunidades de mercado y haz crecer tu negocio. Con nuestras herramientas de análisis de datos, podrás identificar nuevas oportunidades de crecimiento, desarrollar estrategias efectivas y mantener a tu empresa en la vanguardia de tu industria.
                                 </p>
                             </Content>
                             <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-2">
@@ -89,17 +79,10 @@ export default function Home() {
                                             alt="Customizable Layouts image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Customizable Layouts
+                                            Conocimiento del Cliente
                                         </CardHeader>
                                         <p>
-                                            Personalize your meal planning
-                                            experience with our flexible
-                                            layouts. Tailor your sections,
-                                            categories, and tabs to suit your
-                                            unique style and organization
-                                            preferences. Our template adapts to
-                                            your needs, providing a seamless and
-                                            personalized planning experience.
+                                            Comprender a tus clientes es fundamental para el éxito de cualquier negocio. Nuestras herramientas te ayudarán a recopilar, analizar y comprender los datos de tus clientes, lo que te permitirá ofrecer experiencias personalizadas y construir relaciones más sólidas con tu base de clientes.
                                         </p>
                                     </CardBody>
                                 </Card>
@@ -110,17 +93,10 @@ export default function Home() {
                                             alt="Progress Tracking image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Progress Tracking
+                                            Convencete!
                                         </CardHeader>
                                         <p>
-                                            Celebrate your wins and stay
-                                            motivated on your nutrition journey.
-                                            NutriTrack allows you to monitor
-                                            your progress with weight,
-                                            measurements, and other key metrics.
-                                            Track your improvements over time
-                                            and see the positive impact of your
-                                            healthy choices.
+                                            En Dataset Mx, estamos comprometidos a ayudarte a alcanzar tus objetivos comerciales mediante el poder de los datos. ¡Contáctanos hoy mismo para descubrir cómo podemos transformar tu negocio con nuestras soluciones de gestión de datos!
                                         </p>
                                     </CardBody>
                                 </Card>
