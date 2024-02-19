@@ -9,11 +9,7 @@ export default async function Cart({ params }) {
 
   return (
     <div>
-      {rows.map((row) => (
-        <div key={row.id}>
-          {row.id} - {row.quantity}
-        </div>
-      ))}
+        console
     </div>
   );
 }
