@@ -7,30 +7,63 @@ import clsx from "clsx";
 const accordionData = [
     {
         id: uuid(),
-        title: "What is Notion?",
+        title: "¿Cuál es el objetivo de la gestión de datos?",
         isOpen: true,
         content:
-            "Notion is an all-in-one productivity tool that allows you to create notes, databases, and collaborative workspaces, making it easy to organize and manage your tasks, projects, and ideas in one place."
+            "Su objetivo es garantizar la disponibilidad, integridad y calidad
+de la información, facilitando su uso para la toma de decisiones y el logro de objetivos empresariales.
+En entornos empresariales, la gestión de datos es crucial para mantener la coherencia, cumplir con
+regulaciones, mejorar la eficiencia y adaptarse a la creciente cantidad de datos en la era digital.
+"
     },
     {
         id: uuid(),
-        title: "Who is this template for?",
+        title: "¿Cuáles son las ventajas de la gestión de datos?",
         isOpen: false,
         content:
-            "This template is specifically designed for Notion creators who want to create a personalized landing page for their Notion workspace, showcasing their projects, services, or content in a visually appealing manner."
+            "1.	Toma de decisiones Informada
+2.	Eficiencia operative
+3.	Mejora de la calidad de datos
+4.	Cumplimiento normative
+5.	Optimización de costos
+6.	Optimización de costos
+7.	Seguridad de datos
+8.	Mejora en la experiencia del cliente
+9.	Facilita la colaboración
+10.	Agilidad empresarial
+"
     },
     {
         id: uuid(),
-        title: "Do I need to pay for this?",
+        title: "¿En dónde aplicar gestión de datos?",
         isOpen: false,
-        content: "No, this is free."
+        content: "La gestión de datos se puede aplicar en cualquier área como lo son:
+1.	Empresarial y Comercial
+2.	Salud
+3.	Finanzas
+4.	Educación
+5.	Recursos Humanos
+6.	Gobierno
+7.	Ciencia e Investigación
+8.	Tecnología
+"
     },
     {
         id: uuid(),
-        title: "Where can I ask more questions about this template?",
+        title: "¿Cómo se conforma la gestión de datos?",
         isOpen: false,
         content:
-            "If you have any further questions or need assistance regarding this template, please feel free to reach out to me on my website, or click the Contact within the navigation links."
+            "1.Recolección de datos
+2.Almacenamiento de datos
+3. Integración de datos
+4.Calidad de datos
+5. Seguridad de datos
+6.Gestión de metadatos
+7. Análisis de datos
+8.Cumplimiento normativo
+9.Ciclo de vida de datos
+10.Acceso y distribución de datos
+"
     }
 ];
 
