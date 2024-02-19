@@ -10,7 +10,11 @@ const accordionData = [
         title: "¿Cuál es el objetivo de la gestión de datos?",
         isOpen: true,
         content:
-            "Su objetivo es garantizar la disponibilidad, integridad y calidad de la información, facilitando su uso para la toma de decisiones y el logro de objetivos empresariales. En entornos empresariales, la gestión de datos es crucial para mantener la coherencia, cumplir con regulaciones, mejorar la eficiencia y adaptarse a la creciente cantidad de datos en la era digital."
+        <pre>
+            This is line 1
+            This is line 2
+            This is line 3
+        </pre>
     },
     {
         id: uuid(),
