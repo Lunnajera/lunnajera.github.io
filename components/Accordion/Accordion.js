@@ -10,31 +10,59 @@ const accordionData = [
         title: "¿Cuál es el objetivo de la gestión de datos?",
         isOpen: true,
         content:
-        <pre>
-            This is line 1<br />
-            This is line 2<br />
-            This is line 3<br />
-        </pre>
+            "Su objetivo es garantizar la disponibilidad, integridad y calidad de la información, facilitando su uso para la toma de decisiones y el logro de objetivos empresariales. En entornos empresariales, la gestión de datos es crucial para mantener la coherencia, cumplir con regulaciones, mejorar la eficiencia y adaptarse a la creciente cantidad de datos en la era digital"
     },
     {
         id: uuid(),
         title: "¿Cuáles son las ventajas de la gestión de datos?",
         isOpen: false,
         content:
-            "4.	Cumplimiento normative\n5.	Optimización de costos\n6.	Optimización de costos\n7.	Seguridad de datos\n8.	Mejora en la experiencia del cliente\n9.	Facilita la colaboración\n10.	Agilidad empresarial"
+        <pre>
+            1.	Toma de decisiones Informada<br />
+            2.	Eficiencia operativa<br />
+            3.	Mejora de la calidad de datos<br />
+            4.	Cumplimiento normativo<br />
+            5.	Optimización de costos<br />
+            6.	Seguridad de datos<br />
+            7.	Innovación<br />
+            8.	Mejora en la experiencia del cliente<br />
+            9.	Facilita la colaboración<br />
+            10.	Agilidad empresarial<br />
+        </pre>
     },
     {
         id: uuid(),
         title: "¿En dónde aplicar gestión de datos?",
         isOpen: false,
-        content: "La gestión de datos se puede aplicar en cualquier área como lo son:<br />1.	Empresarial y Comercial<br />2.	Salud<br />3.	Finanzas<br />4.	Educación<br />5.	Recursos Humanos<br />6.	Gobierno<br />7.	Ciencia e Investigación<br />8.	Tecnología"
+        content: 
+        <pre>
+            1.	Empresarial y Comercial<br />
+            2.	Salud<br />
+            3.	Finanzas<br />
+            4.	Educación<br />
+            5.	Recursos Humanos<br />
+            6.	Gobierno<br />
+            7.	Ciencia e Investigación<br />
+            8.	Tecnología<br />
+        </pre>
     },
     {
         id: uuid(),
         title: "¿Cómo se conforma la gestión de datos?",
         isOpen: false,
         content:
-            "1.Recolección de datos<br />2.Almacenamiento de datos<br />3. Integración de datos<br />4.Calidad de datos<br />5. Seguridad de datos<br />6.Gestión de metadatos<br />7. Análisis de datos<br />8.Cumplimiento normativo<br />9.Ciclo de vida de datos<br />10.Acceso y distribución de datos"
+        <pre>
+            1.	Recolección de datos<br />
+            2.	Almacenamiento de datos<br />
+            3.	Integración de datos<br />
+            4.	Calidad de datos<br />
+            5.	Seguridad de datos<br />
+            6.	Gestión de metadatos<br />
+            7.	Análisis de datos<br />
+            8.	Cumplimiento normativo<br />
+            9.	Ciclo de vida de datos<br />
+            10.	Acceso y distribución de datos<br />
+        </pre>
     }
 ];
 
