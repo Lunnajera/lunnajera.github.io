@@ -7,8 +7,8 @@ export default function Cart({ params }) {
   useEffect(() => {
     // Create an asynchronous function inside useEffect
     const fetchData = async () => {
-      const connectionString = process.env.POSTGRES_URL;
-      console.log("POSTGRES_URL:", connectionString);
+      console.log('All environment variables:', process.env);
+      console.log('POSTGRES_URL:', process.env.POSTGRES_URL);
       try {
         const result = await sql`SELECT * from users`;
         setRows(result.rows);
