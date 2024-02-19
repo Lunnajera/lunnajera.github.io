@@ -17,7 +17,7 @@ const accordionData = [
         title: "¿Cuáles son las ventajas de la gestión de datos?",
         isOpen: false,
         content:
-            "1.	Toma de decisiones Informada<br />2.	Eficiencia operative<br />3.	Mejora de la calidad de datos<br />4.	Cumplimiento normative<br />5.	Optimización de costos<br />6.	Optimización de costos<br />7.	Seguridad de datos<br />8.	Mejora en la experiencia del cliente<br />9.	Facilita la colaboración<br />10.	Agilidad empresarial"
+            "1.	Toma de decisiones Informada\n2.	Eficiencia operative\n3.	Mejora de la calidad de datos\n4.	Cumplimiento normative\n5.	Optimización de costos\n6.	Optimización de costos\n7.	Seguridad de datos\n8.	Mejora en la experiencia del cliente\n9.	Facilita la colaboración\n10.	Agilidad empresarial"
     },
     {
         id: uuid(),
