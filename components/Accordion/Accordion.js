@@ -10,60 +10,27 @@ const accordionData = [
         title: "¿Cuál es el objetivo de la gestión de datos?",
         isOpen: true,
         content:
-            "Su objetivo es garantizar la disponibilidad, integridad y calidad
-de la información, facilitando su uso para la toma de decisiones y el logro de objetivos empresariales.
-En entornos empresariales, la gestión de datos es crucial para mantener la coherencia, cumplir con
-regulaciones, mejorar la eficiencia y adaptarse a la creciente cantidad de datos en la era digital.
-"
+            "Su objetivo es garantizar la disponibilidad, integridad y calidad de la información, facilitando su uso para la toma de decisiones y el logro de objetivos empresariales. En entornos empresariales, la gestión de datos es crucial para mantener la coherencia, cumplir con regulaciones, mejorar la eficiencia y adaptarse a la creciente cantidad de datos en la era digital."
     },
     {
         id: uuid(),
         title: "¿Cuáles son las ventajas de la gestión de datos?",
         isOpen: false,
         content:
-            "1.	Toma de decisiones Informada
-2.	Eficiencia operative
-3.	Mejora de la calidad de datos
-4.	Cumplimiento normative
-5.	Optimización de costos
-6.	Optimización de costos
-7.	Seguridad de datos
-8.	Mejora en la experiencia del cliente
-9.	Facilita la colaboración
-10.	Agilidad empresarial
-"
+            "1.	Toma de decisiones Informada<br />2.	Eficiencia operative<br />3.	Mejora de la calidad de datos<br />4.	Cumplimiento normative<br />5.	Optimización de costos<br />6.	Optimización de costos<br />7.	Seguridad de datos<br />8.	Mejora en la experiencia del cliente<br />9.	Facilita la colaboración<br />10.	Agilidad empresarial"
     },
     {
         id: uuid(),
         title: "¿En dónde aplicar gestión de datos?",
         isOpen: false,
-        content: "La gestión de datos se puede aplicar en cualquier área como lo son:
-1.	Empresarial y Comercial
-2.	Salud
-3.	Finanzas
-4.	Educación
-5.	Recursos Humanos
-6.	Gobierno
-7.	Ciencia e Investigación
-8.	Tecnología
-"
+        content: "La gestión de datos se puede aplicar en cualquier área como lo son:<br />1.	Empresarial y Comercial<br />2.	Salud<br />3.	Finanzas<br />4.	Educación<br />5.	Recursos Humanos<br />6.	Gobierno<br />7.	Ciencia e Investigación<br />8.	Tecnología"
     },
     {
         id: uuid(),
         title: "¿Cómo se conforma la gestión de datos?",
         isOpen: false,
         content:
-            "1.Recolección de datos
-2.Almacenamiento de datos
-3. Integración de datos
-4.Calidad de datos
-5. Seguridad de datos
-6.Gestión de metadatos
-7. Análisis de datos
-8.Cumplimiento normativo
-9.Ciclo de vida de datos
-10.Acceso y distribución de datos
-"
+            "1.Recolección de datos<br />2.Almacenamiento de datos<br />3. Integración de datos<br />4.Calidad de datos<br />5. Seguridad de datos<br />6.Gestión de metadatos<br />7. Análisis de datos<br />8.Cumplimiento normativo<br />9.Ciclo de vida de datos<br />10.Acceso y distribución de datos"
     }
 ];
 
