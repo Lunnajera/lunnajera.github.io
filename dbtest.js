@@ -8,12 +8,12 @@ export default function Cart({ params }) {
     // Create an asynchronous function inside useEffect
     const fetchData = async () => {
       const connectionString = process.env.POSTGRES_URL;
-      console.log('POSTGRES_URL:', connectionString);
+      console.log("POSTGRES_URL:", connectionString);
       try {
         const result = await sql`SELECT * from users`;
         setRows(result.rows);
       } catch (error) {
-        console.error("Error fetching data:", error);
+        //console.error("Error fetching data:", error);
         // Handle errors accordingly
       }
     };
