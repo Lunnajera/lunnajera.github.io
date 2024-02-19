@@ -41,7 +41,7 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                En Dataset Mx haremos que tomes de decisiones informado
+                                En Dataset Mx haremos que tomes decisiones informado
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
@@ -93,7 +93,7 @@ export default function Home() {
                                             alt="Progress Tracking image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Convencete!
+                                            Convéncete!
                                         </CardHeader>
                                         <p>
                                             En Dataset Mx, estamos comprometidos a ayudarte a alcanzar tus objetivos comerciales mediante el poder de los datos. ¡Contáctanos hoy mismo para descubrir cómo podemos transformar tu negocio con nuestras soluciones de gestión de datos!
@@ -134,10 +134,9 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Got some burning questions about NutriTrack?{" "}
+                                ¿Tienes algunas preguntas sobre Dataset Mx?{" "}
                                 <br></br>
-                                <br></br>No worries! We&apos;ve got the answers
-                                you need:
+                                <br></br>No te preocupes, tenemos las respuestas que necesitas:
                             </PageTitle>
                             <Accordion />
                         </SectionContainer>
