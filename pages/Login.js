@@ -1,10 +1,29 @@
 import Image from "next/image";
-import { ButtonGroup } from "@components/Button";
-import { Icon } from "@iconify/react";
 import { Header } from "@components/Header_Login";
-import { Footer } from "@components/Footer_Login";
+import { FormEvent } from 'react'
+import { useRouter } from 'next/router'
 
 export default function Login() {
+  const router = useRouter()
+
+  async function handleSubmit(event) {
+  const email = document.getElementById('email').value;
+  const password = document.getElementById('password').value;
+
+
+  const response = await fetch('/api/auth/login', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ email, password }),
+  })
+
+  if (response.ok) {
+    router.push('/profile')
+  } else {
+    // Handle errors
+  }
+}
+
   return (
     <div className='layout'>
     <Header />
@@ -49,7 +68,7 @@ export default function Login() {
               />
             </div>
             <div>
-            <button type="submit" className="btn btn--secondary" icon="material-symbols:arrow-forward-rounded">Submit</button>
+            <button type="submit" className="btn btn--secondary" icon="material-symbols:arrow-forward-rounded" onClick={handleSubmit}>Submit</button>
             </div>
           </form>
         </div>
