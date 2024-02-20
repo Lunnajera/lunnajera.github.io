@@ -25,6 +25,7 @@ export default function Login() {
       console.error("Error fetching data:", error);
     }
   };
+  fetchData();
 }
 
   return (
