@@ -4,11 +4,14 @@ import { FormEvent } from 'react'
 import { useRouter } from 'next/router'
 import profile from "./profile";
 import { sql } from "@vercel/postgres";
+import { useEffect, useState } from 'react';
 
 export default function Login() {
-  const router = useRouter()
+  const [rows, setRows] = useState(null);
 
   function handleSubmit(event) {
+  useEffect(() => {
+  const router = useRouter();
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
 
@@ -28,7 +31,8 @@ export default function Login() {
     }
   };
   fetchData();
-}
+}, []);
+  }
 
   return (
     <div className='layout'>
