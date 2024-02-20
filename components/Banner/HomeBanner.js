@@ -15,7 +15,7 @@ export const HomeBanner = () => {
                 <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
                     <BadgeGroup alignment="center">
                         <BadgeMessage>Gestiona tus datos con Dataset MX!</BadgeMessage>
-                        <BadgeIcon icon="game-icons:meal" />
+                        {/*<BadgeIcon icon="game-icons:meal" />*/}
                     </BadgeGroup>
                 </MotionBTTContainer>
                 {/* Appear Second */}
