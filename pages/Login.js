@@ -15,7 +15,8 @@ export default function Login() {
     //console.log('All environment variables:Nuevo', process.env);
     //console.log('POSTGRES_URL:', process.env.POSTGRES_URL);
     try {
-      const result = await sql`SELECT * from users WHERE Email = `+ email + `AND Password = ` + password;
+      console.log("Email:" + email + " Password:" + password);
+      const result = await sql`SELECT * from users WHERE email = '`+ email + `' AND password = '` + password + "'";
       setRows(result.rows);
       console.log(result);
       alert("Welcome: "+email);
