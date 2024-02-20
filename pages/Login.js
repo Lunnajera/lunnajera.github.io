@@ -3,6 +3,7 @@ import { Header } from "@components/Header_Login";
 import { FormEvent } from 'react'
 import { useRouter } from 'next/router'
 import profile from "./profile";
+import { sql } from "@vercel/postgres";
 
 export default function Login() {
   const router = useRouter()
@@ -23,6 +24,7 @@ export default function Login() {
       router.push(profile);
     } catch (error) {
       console.error("Error fetching data:", error);
+      alert("Something went wrong!!");
     }
   };
   fetchData();
