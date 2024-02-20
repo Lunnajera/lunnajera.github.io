@@ -49,16 +49,7 @@ export default function Login() {
               />
             </div>
             <div>
-                <ButtonGroup>
-                    <a
-                        role="button"
-                        href="https://github.com/christian-luntok/nutritrack"
-                        className="btn btn--secondary"
-                    >
-                        Login
-                        <Icon icon="material-symbols:arrow-forward-rounded" />
-                    </a>
-                </ButtonGroup>
+            <button type="submit" className="btn btn--secondary" icon="material-symbols:arrow-forward-rounded">Submit</button>
             </div>
           </form>
         </div>
