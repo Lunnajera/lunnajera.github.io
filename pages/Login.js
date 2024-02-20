@@ -2,26 +2,28 @@ import Image from "next/image";
 import { Header } from "@components/Header_Login";
 import { FormEvent } from 'react'
 import { useRouter } from 'next/router'
+import profile from "./profile";
 
 export default function Login() {
   const router = useRouter()
 
-  async function handleSubmit(event) {
+  function handleSubmit(event) {
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
 
-
-  const response = await fetch('/api/auth/login', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ email, password }),
-  })
-
-  if (response.ok) {
-    router.push('/profile')
-  } else {
-    // Handle errors
-  }
+  const fetchData = async () => {
+    //console.log('All environment variables:Nuevo', process.env);
+    //console.log('POSTGRES_URL:', process.env.POSTGRES_URL);
+    try {
+      const result = await sql`SELECT * from users WHERE Email = `+ email + `AND Password = ` + password;
+      setRows(result.rows);
+      console.log(result);
+      alert("Welcome: "+email);
+      router.push(profile);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
+  };
 }
 
   return (
