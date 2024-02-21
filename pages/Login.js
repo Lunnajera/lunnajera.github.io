@@ -7,9 +7,10 @@ import { sql } from "@vercel/postgres";
 import { useEffect, useState } from 'react';
 
 export default function Login() {
-  const [rows, setRows] = useState(null);
+  
 
   async function handleSubmit(event) {
+    const [rows, setRows] = useState(null);
   useEffect(() => {
     // Create an asynchronous function inside useEffect
     const fetchData = async () => {
@@ -17,12 +18,11 @@ export default function Login() {
       const email = document.getElementById('email').value;
       const password = document.getElementById('password').value;
       try {
-        console.log(`SELECT * FROM users WHERE email = '${email}' AND password = '${password}`);
+        console.log(`SELECT * FROM users WHERE email = '${email}' AND password = '${password}'`);
         const result = await sql`SELECT * FROM users WHERE email = '${email}' AND password = '${password}'`;
-        setRows(result.rows);
         console.log(result);
+        setRows(result.rows);
         alert("Welcome: "+email);
-        router.push(profile);
       } catch (error) {
         console.error("Error fetching data:", error);
         alert("Something went wrong!!");
