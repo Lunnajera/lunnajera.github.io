@@ -8,28 +8,31 @@ import { useEffect, useState } from 'react';
 
 export default function Login() {
   const [rows, setRows] = useState(null);
-
-  useEffect(() => {
   const router = useRouter();
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
-  const fetchData = async () => {
-    //console.log('All environment variables:Nuevo', process.env);
-    //console.log('POSTGRES_URL:', process.env.POSTGRES_URL);
-    try {
-      console.log(`SELECT * FROM users WHERE email = '${email}' AND password = '${password}`);
-      const result = await sql`SELECT * FROM users WHERE email = '${email}' AND password = '${password}'`;
-      setRows(result.rows);
-      console.log(result);
-      alert("Welcome: "+email);
-      router.push(profile);
-    } catch (error) {
-      console.error("Error fetching data:", error);
-      alert("Something went wrong!!");
-    }
-  };
-}, []);
 
+  async function handleSubmit(event) {
+  useEffect(() => {
+    // Create an asynchronous function inside useEffect
+    const fetchData = async () => {
+      try {
+        console.log(`SELECT * FROM users WHERE email = '${email}' AND password = '${password}`);
+        const result = await sql`SELECT * FROM users WHERE email = '${email}' AND password = '${password}'`;
+        setRows(result.rows);
+        console.log(result);
+        alert("Welcome: "+email);
+        router.push(profile);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+        alert("Something went wrong!!");
+      }
+    };
+    // Call the async function
+    fetchData();
+  }, []); // The empty dependency array ensures useEffect runs only once on mount
+  }
+  
   return (
     <div className='layout'>
     <Header />
@@ -74,7 +77,7 @@ export default function Login() {
               />
             </div>
             <div>
-            <button type="submit" className="btn btn--secondary" icon="material-symbols:arrow-forward-rounded" onClick={fetchData}>Submit</button>
+            <button type="submit" className="btn btn--secondary" icon="material-symbols:arrow-forward-rounded" onClick={handleSubmit}>Submit</button>
             </div>
           </form>
         </div>
