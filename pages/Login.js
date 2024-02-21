@@ -7,31 +7,27 @@ import { sql } from "@vercel/postgres";
 import { useEffect, useState } from 'react';
 
 export default function Login() {
-  
-
-  async function handleSubmit(event) {
     const [rows, setRows] = useState(null);
-  useEffect(() => {
-    // Create an asynchronous function inside useEffect
-    const fetchData = async () => {
-      const router = useRouter();
-      const email = document.getElementById('email').value;
-      const password = document.getElementById('password').value;
-      try {
-        console.log(`SELECT * FROM users WHERE email = '${email}' AND password = '${password}'`);
-        const result = await sql`SELECT * FROM users WHERE email = '${email}' AND password = '${password}'`;
-        console.log(result);
-        setRows(result.rows);
-        alert("Welcome: "+email);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-        alert("Something went wrong!!");
-      }
-    };
-    // Call the async function
-    fetchData();
-  }, []); // The empty dependency array ensures useEffect runs only once on mount
-  }
+  
+    useEffect(() => {
+      // Create an asynchronous function inside useEffect
+      const fetchData = async () => {
+        try {
+          const result = await sql`SELECT * from users`;
+          setRows(result.rows);
+        } catch (error) {
+          console.error("Error fetching data:", error);
+          // Handle errors accordingly
+        }
+      };
+  
+      // Call the async function
+      fetchData();
+    }, []); // The empty dependency array ensures useEffect runs only once on mount
+  
+    // Ensure you have rows before mappings
+    if (!rows) return <div>Loading...</div>; // Or a placeholder
+    console.log(rows);
 
   return (
     <div className='layout'>
@@ -77,7 +73,7 @@ export default function Login() {
               />
             </div>
             <div>
-            <button type="submit" className="btn btn--secondary" icon="material-symbols:arrow-forward-rounded" onClick={handleSubmit}>Submit</button>
+            <button type="submit" className="btn btn--secondary" icon="material-symbols:arrow-forward-rounded" onclick="fetchData">Submit</button>
             </div>
           </form>
         </div>
