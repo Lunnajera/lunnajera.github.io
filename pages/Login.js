@@ -8,14 +8,14 @@ import { useEffect, useState } from 'react';
 
 export default function Login() {
   const [rows, setRows] = useState(null);
-  const router = useRouter();
-  const email = document.getElementById('email').value;
-  const password = document.getElementById('password').value;
 
   async function handleSubmit(event) {
   useEffect(() => {
     // Create an asynchronous function inside useEffect
     const fetchData = async () => {
+      const router = useRouter();
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
       try {
         console.log(`SELECT * FROM users WHERE email = '${email}' AND password = '${password}`);
         const result = await sql`SELECT * FROM users WHERE email = '${email}' AND password = '${password}'`;
@@ -32,7 +32,7 @@ export default function Login() {
     fetchData();
   }, []); // The empty dependency array ensures useEffect runs only once on mount
   }
-  
+
   return (
     <div className='layout'>
     <Header />
