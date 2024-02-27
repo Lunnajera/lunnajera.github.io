@@ -7,10 +7,14 @@ import { sql } from "@vercel/postgres";
 import { useEffect, useState } from 'react';
 
 export default function Login() {
-  function handleSubmit(e){
-    var formData = new FormData(e.target);
-    const form_values = Object.fromEntries(formData);
-    console.log('form values: ', form_values)
+  const login = async (formData) => {
+    // "use server"; // This line is a comment, and it seems to be incomplete or unnecessary in JavaScript.
+
+    const email = formData.get("email");
+    const password = formData.get("password");
+
+    console.log({ name, email, password });
+  };
    }
 
   return (
@@ -28,7 +32,7 @@ export default function Login() {
               Por favor, inicia sesión.
             </p>
           </div>
-          <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
+          <form className="mt-8 space-y-6" action={login} method="POST">
             <div>
               <label htmlFor="email" className="block font-bold text-gray-700">
                 Correo Electrónico:
