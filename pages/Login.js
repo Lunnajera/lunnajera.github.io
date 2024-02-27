@@ -35,6 +35,7 @@ export default function Login() {
               <input
                 id="email"
                 type="email"
+                name="email"
                 placeholder="Enter your email"
                 className="w-full px-4 py-3 mt-1 border-gray-300 rounded-md focus:border-indigo-500 focus:ring focus:ring-indigo-200"
                 required
@@ -50,6 +51,7 @@ export default function Login() {
               <input
                 id="password"
                 type="password"
+                name="password"
                 placeholder="Enter your password"
                 className="w-full px-4 py-3 mt-1 border-gray-300 rounded-md focus:border-indigo-500 focus:ring focus:ring-indigo-200"
                 required
