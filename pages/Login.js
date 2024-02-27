@@ -15,7 +15,6 @@ export default function Login() {
 
     console.log({ name, email, password });
   };
-   }
 
   return (
     <div className='layout'>
