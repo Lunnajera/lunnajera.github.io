@@ -7,7 +7,7 @@ import { sql } from "@vercel/postgres";
 import { useEffect, useState } from 'react';
 
 export default function Login() {
-    const [rows, setRows] = useState(null);
+    /*const [rows, setRows] = useState(null);
   
     useEffect(() => {
       // Create an asynchronous function inside useEffect
@@ -25,7 +25,21 @@ export default function Login() {
       fetchData();
     }, []); // The empty dependency array ensures useEffect runs only once on mount
   
-    // Ensure you have rows before mappings
+    // Ensure you have rows before mappings*/
+    const email = document.getElementById("email");
+    const pass = docuemnt.getElementById("password");
+    const router = useRouter();
+    function fetchData() {
+      if(email == "guest@dataset.mx" && pass == "DTstmx?12")
+      {
+        router.push('/profile')
+      }
+      else
+      {
+        alert("Wrong user or password!")
+      }
+
+    }
     if (!rows) return <div>Loading...</div>; // Or a placeholder
     console.log(rows);
 
@@ -73,7 +87,7 @@ export default function Login() {
               />
             </div>
             <div>
-            <button type="submit" className="btn btn--secondary" icon="material-symbols:arrow-forward-rounded" onclick="fetchData">Submit</button>
+            <button type="submit" className="btn btn--secondary" icon="material-symbols:arrow-forward-rounded" onClick={fetchData}>Submit</button>
             </div>
           </form>
         </div>
