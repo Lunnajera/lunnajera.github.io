@@ -13,7 +13,7 @@ export default function Login() {
       const router = useRouter();
       if(email == "guest@dataset.mx" && pass == "DTstmx?12")
       {
-        router.push('/profile')
+        console.log("Access granted")
       }
       else
       {
