@@ -7,29 +7,10 @@ import { sql } from "@vercel/postgres";
 import { useEffect, useState } from 'react';
 
 export default function Login() {
-    /*const [rows, setRows] = useState(null);
-  
-    useEffect(() => {
-      // Create an asynchronous function inside useEffect
-      const fetchData = async () => {
-        try {
-          const result = await sql`SELECT * from users`;
-          setRows(result.rows);
-        } catch (error) {
-          console.error("Error fetching data:", error);
-          // Handle errors accordingly
-        }
-      };
-  
-      // Call the async function
-      fetchData();
-    }, []); // The empty dependency array ensures useEffect runs only once on mount
-  
-    // Ensure you have rows before mappings*/
-    const email = document.getElementById("email");
-    const pass = docuemnt.getElementById("password");
-    const router = useRouter();
     function fetchData() {
+      const email = document.getElementById("email");
+      const pass = docuemnt.getElementById("password");
+      const router = useRouter();
       if(email == "guest@dataset.mx" && pass == "DTstmx?12")
       {
         router.push('/profile')
