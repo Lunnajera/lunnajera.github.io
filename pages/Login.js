@@ -19,10 +19,7 @@ export default function Login() {
       {
         alert("Wrong user or password!")
       }
-
     }
-    if (!rows) return <div>Loading...</div>; // Or a placeholder
-    console.log(rows);
 
   return (
     <div className='layout'>
