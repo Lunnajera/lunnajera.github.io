@@ -7,19 +7,12 @@ import { sql } from "@vercel/postgres";
 import { useEffect, useState } from 'react';
 
 export default function Login() {
-    function fetchData() {
-      const email = document.getElementById("email");
-      const pass = document.getElementById("password");
-      const router = useRouter();
-      if(email == "guest@dataset.mx" && pass == "DTstmx?12")
-      {
-        console.log("Access granted")
-      }
-      else
-      {
-        alert("Wrong user or password!")
-      }
-    }
+  function handleSubmit(e){
+    e.preventDefaullt()
+    var formData = new FormData(e.target);
+    const form_values = Object.fromEntries(formData);
+    console.log('form values: ', form_values)
+   }
 
   return (
     <div className='layout'>
@@ -36,7 +29,7 @@ export default function Login() {
               Por favor, inicia sesión.
             </p>
           </div>
-          <form className="mt-8 space-y-6">
+          <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
             <div>
               <label htmlFor="email" className="block font-bold text-gray-700">
                 Correo Electrónico:
@@ -65,7 +58,7 @@ export default function Login() {
               />
             </div>
             <div>
-            <button type="submit" className="btn btn--secondary" icon="material-symbols:arrow-forward-rounded" onClick={fetchData}>Submit</button>
+            <button type="submit" className="btn btn--secondary" icon="material-symbols:arrow-forward-rounded">Submit</button>
             </div>
           </form>
         </div>
