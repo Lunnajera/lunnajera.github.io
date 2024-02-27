@@ -21,8 +21,8 @@ const DATA = [
                 href: "#faq"
             }
         ]
-    },
-    {
+    }
+    /*{
         title: "Empresa",
         items: [
             {
@@ -46,7 +46,7 @@ const DATA = [
                 target: "_blank"
             }
         ]
-    }
+    }*/
 ];
 
 export const Footer = () => {
