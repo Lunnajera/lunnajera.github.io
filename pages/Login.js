@@ -7,9 +7,19 @@ import { sql } from "@vercel/postgres";
 import { useEffect, useState } from 'react';
 
 export default function Login() {
+  const router = useRouter();
   const handleSubmit = async (e) => {
     const formData = new FormData(e.target);
-    console.log(formData.get("email"));
+    const email = formData.get("email");
+    const pass = formData.get("password");
+    if(email == "guest@dataset.mx" && pass == "Dtstmx?12")
+    {
+      router.push('/profile')
+    }
+    else
+    {
+      alert("User or password is not correct!!");
+    }
   };
 
   return (
