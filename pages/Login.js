@@ -9,7 +9,7 @@ import { useEffect, useState } from 'react';
 export default function Login() {
     function fetchData() {
       const email = document.getElementById("email");
-      const pass = docuemnt.getElementById("password");
+      const pass = document.getElementById("password");
       const router = useRouter();
       if(email == "guest@dataset.mx" && pass == "DTstmx?12")
       {
