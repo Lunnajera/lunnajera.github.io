@@ -13,7 +13,7 @@ const DATA = [
                 href: "#features"
             },
             {
-                label: "Testimonios",
+                label: "Cultura",
                 href: "#testimonials"
             },
             {

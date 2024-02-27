@@ -35,7 +35,7 @@ export default function Home() {
                     >
                         <SectionContainer id="features" className="features">
                             <BadgeGroup alignment="center">
-                                <BadgeMessage>Features</BadgeMessage>
+                                <BadgeMessage>Sobre Dataset</BadgeMessage>
                             </BadgeGroup>
                             <PageTitle
                                 className="text-center mx-auto"
@@ -57,8 +57,7 @@ export default function Home() {
                     >
                         <SectionContainer className="feature-tabs">
                             <BadgeGroup alignment="center">
-                                <BadgeMessage>More Features</BadgeMessage>
-                                <BadgeIcon icon="twemoji:waving-hand" />
+                                <BadgeMessage>Descubre mas!</BadgeMessage>
                             </BadgeGroup>
                             <PageTitle
                                 className="text-center mx-auto"
@@ -112,8 +111,7 @@ export default function Home() {
                             className="benefits"
                         >
                             <BadgeGroup alignment="left">
-                                <BadgeMessage>Testimonials</BadgeMessage>
-                                <BadgeIcon icon="twemoji:waving-hand" />
+                                <BadgeMessage>Cultura</BadgeMessage>
                             </BadgeGroup>
                             <PageTitle className="" type="default">
                                 Cultura Empresarial:
