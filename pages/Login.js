@@ -9,6 +9,7 @@ import { useEffect, useState } from 'react';
 export default function Login() {
   const router = useRouter();
   const handleSubmit = async (e) => {
+    e.preventDefault();
     const formData = new FormData(e.target);
     const email = formData.get("email");
     const pass = formData.get("password");
