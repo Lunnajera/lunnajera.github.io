@@ -10,7 +10,7 @@ console.log("Hello");
     <div className='layout'>
     <Header />
     <div className="flex flex-col items-center justify-center md:flex-row md:h-screen">
-      <iframe title="Version1_0" width="1320" height="821.7" src="https://app.powerbi.com/view?r=eyJrIjoiNDFhZDZkYTQtZDJhMi00NjE2LTg2ZTAtN2UyMDYxMjk4N2VhIiwidCI6ImJlNjk2MDQzLWNkNmMtNDlmMy04MjA5LWU0N2NjOGE4YjVkMCIsImMiOjR9" frameborder="0" allowFullScreen></iframe>
+      <iframe title="Version1_0" width="900" height="498" src="https://app.powerbi.com/view?r=eyJrIjoiNDFhZDZkYTQtZDJhMi00NjE2LTg2ZTAtN2UyMDYxMjk4N2VhIiwidCI6ImJlNjk2MDQzLWNkNmMtNDlmMy04MjA5LWU0N2NjOGE4YjVkMCIsImMiOjR9" frameborder="0" allowFullScreen></iframe>
     </div>
   </div>
   );
