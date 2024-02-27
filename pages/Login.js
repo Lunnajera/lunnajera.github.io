@@ -8,7 +8,6 @@ import { useEffect, useState } from 'react';
 
 export default function Login() {
   function handleSubmit(e){
-    e.preventDefaullt()
     var formData = new FormData(e.target);
     const form_values = Object.fromEntries(formData);
     console.log('form values: ', form_values)
