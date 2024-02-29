@@ -21,32 +21,23 @@ const DATA = [
                 href: "#faq"
             }
         ]
-    }
-    /*{
+    },
+    {
         title: "Empresa",
         items: [
             {
-                label: "Acerca de",
-                href: "https://github.com/christian-luntok/",
-                target: "_blank"
-            },
-            {
-                label: "Twitter",
-                href: "https://github.com/christian-luntok/",
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/company/datasetmx/",
                 target: "_blank"
             },
             {
                 label: "Instagram",
-                href: "https://github.com/christian-luntok/",
+                href: "https://www.instagram.com/dataset.mx?igsh=YXU5aWl4dm9reDJl",
                 target: "_blank"
             },
-            {
-                label: "Facebook",
-                href: "https://github.com/christian-luntok/",
-                target: "_blank"
-            }
+
         ]
-    }*/
+    }
 ];
 
 export const Footer = () => {

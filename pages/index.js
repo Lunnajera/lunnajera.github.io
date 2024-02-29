@@ -21,7 +21,7 @@ export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="Dataset MX - Tus datos vistos mejor"
+                title="Dataset MX - Decide Diferente."
                 description="La manera más sencilla de consultar tus datos y planear tus decisiones. Empieza a utilizar la gestión de datos para tu empresa y destaca en el mercado."
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
