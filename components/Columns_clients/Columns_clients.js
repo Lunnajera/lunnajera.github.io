@@ -30,8 +30,8 @@ export const Columns_clients = () => {
                 >
                     <Image
                         src={item.image}
-                        width={160}
-                        height={38}
+                        width={240}
+                        height={57}
                         objectFit="cover"
                         alt="Process Banner 1"
                         className="drop-shadow-xl w-full offset-y-0 offset-x-8 blur-16"
