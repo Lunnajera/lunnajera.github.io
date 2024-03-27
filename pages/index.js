@@ -4,6 +4,7 @@ import { PageTitle } from "@components/Title";
 import { Layout } from "@components/Layout";
 import { HomeBanner } from "@components/Banner";
 import { Columns } from "@components/Columns";
+import { Columns_clients } from "@components/Columns_clients";
 import { ContentImage } from "@components/ContentImage";
 import { Content } from "@components/Content";
 import { Accordion } from "@components/Accordion";
@@ -119,6 +120,24 @@ export default function Home() {
                             <Columns />
                         </SectionContainer>
                     </MotionBTTContainer>
+
+                    <MotionBTTContainer
+                        transition={{ delay: 0.2, duration: 0.5 }}
+                    >
+                        <SectionContainer
+                            id="testimonials"
+                            className="benefits"
+                        >
+                            <BadgeGroup alignment="left">
+                                <BadgeMessage>Clientes</BadgeMessage>
+                            </BadgeGroup>
+                            <PageTitle className="" type="default">
+                                Nuestros Clientes:
+                            </PageTitle>
+                            <Columns_clients />
+                        </SectionContainer>
+                    </MotionBTTContainer>
+
                     {/* Accordions */}
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
