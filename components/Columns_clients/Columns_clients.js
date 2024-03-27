@@ -6,7 +6,7 @@ import { v4 as uuid } from "uuid";
 const ColumnData = [
     {
         id: uuid(),
-        title: "Refaccionarias del Valle",
+        title: "",
         content:
             "",
         align: "center",
