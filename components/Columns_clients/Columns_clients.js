@@ -9,7 +9,7 @@ const ColumnData = [
         title: "",
         content:
             "",
-        align: "right",
+        align: "left",
         image: "/logo_mobil.png"
     }
 ];
@@ -30,8 +30,8 @@ export const Columns_clients = () => {
                 >
                     <Image
                         src={item.image}
-                        width={240}
-                        height={57}
+                        width={512}
+                        height={512}
                         objectFit="cover"
                         alt="Process Banner 1"
                         className="drop-shadow-xl w-full offset-y-0 offset-x-8 blur-16"
