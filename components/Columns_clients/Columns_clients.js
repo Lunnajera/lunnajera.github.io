@@ -10,7 +10,9 @@ const ColumnData = [
         content:
             "",
         align: "left",
-        image: "/logo_mobil.png"
+        image: "/logo_mobil.png",
+        width: "800",
+        height: "190"
     }
 ];
 
