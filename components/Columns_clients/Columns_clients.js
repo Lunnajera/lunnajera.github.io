@@ -6,9 +6,9 @@ import { v4 as uuid } from "uuid";
 const ColumnData = [
     {
         id: uuid(),
-        title: "Eficiencia Operativa",
+        title: "",
         content:
-            "Optimiza tus procesos internos y aumenta la eficiencia de tu empresa. Con nuestras soluciones de gestión de datos, podrás identificar y eliminar cuellos de botella, reducir costos y mejorar la productividad en toda la organización.",
+            "",
         align: "right",
         image: "/logo_mobil.png"
     }
