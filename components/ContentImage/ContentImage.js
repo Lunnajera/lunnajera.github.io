@@ -18,9 +18,7 @@ const ContentImageData = [
         content:
             "No te arriesgues a multas costosas o daños a la reputación de tu empresa debido al incumplimiento de normativas. Nuestras soluciones de gestión de datos te ayudarán a garantizar el cumplimiento de todas las regulaciones relevantes en materia de protección de datos y privacidad del cliente.",
         align: "left",
-        image: "/features2.png",
-        width: "512",
-        height: "512"
+        image: "/features2.png"
     }
 ];
 
