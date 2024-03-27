@@ -7,7 +7,7 @@ const ColumnData = [
         id: uuid(),
         title: "",
         content: "",
-        image: "/logo_mobil.webp"
+        image: "/logo_mobil.png"
     }
 ];
 
