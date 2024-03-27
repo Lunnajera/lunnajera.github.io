@@ -7,7 +7,7 @@ const ColumnData = [
         id: uuid(),
         title: "",
         content:
-        <img src = "public\logo_mobil.webp" alt="Cliente 1" width="160" height="38"></img>
+        <img src = "/public/logo_mobil.webp" alt="Cliente 1" width="160" height="38"></img>
     }
 ];
 
