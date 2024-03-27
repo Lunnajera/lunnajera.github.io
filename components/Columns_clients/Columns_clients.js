@@ -5,9 +5,9 @@ import { v4 as uuid } from "uuid";
 const ColumnData = [
     {
         id: uuid(),
-        title: "Misión:",
+        title: "",
         content:
-        "Potenciar el valor de los datos para empresas en México, ofreciendo soluciones integrales de consultoría que transformen la información en insights accionables, impulsando así la toma de decisiones estratégicas y el crecimiento empresarial."
+        <img src = "/public/logo_mobil.webp" alt="Cliente 1" width="160" height="38"></img>
     }
 ];
 
