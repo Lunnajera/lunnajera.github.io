@@ -1,5 +1,6 @@
 import { SectionContainer } from "@components/Section";
 import { Icon } from "@iconify/react";
+import Image from "next/image";
 import { v4 as uuid } from "uuid";
 
 const ColumnData = [
