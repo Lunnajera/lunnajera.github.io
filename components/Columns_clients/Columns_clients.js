@@ -10,7 +10,7 @@ const ColumnData = [
         content:
             "",
         align: "center",
-        image: "/valle3.jpg",
+        image: "/valle3.png",
         width: "800",
         height: "190"
     }
