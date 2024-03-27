@@ -6,11 +6,11 @@ import { v4 as uuid } from "uuid";
 const ColumnData = [
     {
         id: uuid(),
-        title: "",
+        title: "Refaccionarias del Valle",
         content:
             "",
-        align: "left",
-        image: "/logo_mobil.png",
+        align: "center",
+        image: "/valle.png",
         width: "800",
         height: "190"
     }
